@@ -2,7 +2,7 @@
 
 Name:           mingw-harfbuzz
 Version:        1.3.2
-Release:        2%{?dist}
+Release:        3%{?dist}
 Summary:        MinGW Windows Harfbuzz library
 
 License:        MIT
@@ -128,6 +128,9 @@ find $RPM_BUILD_ROOT -name "*.la" -delete
 
 
 %changelog
+* Thu Feb 02 2017 Jajauma's Packages <jajauma@yandex.ru> - 1.3.2-3
+- Rebuild with GCC 5.4.0
+
 * Mon Oct 24 2016 Kalev Lember <klember@redhat.com> - 1.3.2-2
 - Rebuilt for mingw-icu 57
 
